@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to EazyBank accounts related prod APIs "
+  message: "Welcome to EazyBank accounts related docker prod APIs "
   contactDetails:
     name: "Vamsi Krishna - Product Owner"
     email: "{cipher}231384777179901cb6f74aa0f7ad6444eea556ee0a8f284d8f28630ab3bc46d0383cf8869c321d99f8fd15c6a5d1d72d"
