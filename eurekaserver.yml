@@ -1,6 +1,6 @@
-server:
-
-  port: 8072
+spring:
+  application:
+      name: eurekaserver
 
   eureka:
     client:
