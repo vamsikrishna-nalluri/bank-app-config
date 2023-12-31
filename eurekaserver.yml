@@ -1,0 +1,12 @@
+server:
+
+  port: 8070
+
+  eureka:
+    client:
+      fetch-registry: false # This tells the microservice to fetch the registry from the clients
+      register-with-eureka: false # This tells the microservice to register itself with the Eureka server
+      service-url:
+        defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ # This is the URL of the Eureka server
+    instance:
+      hostname: localhost
